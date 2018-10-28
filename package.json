@@ -1,0 +1,17 @@
+{
+  "name": "elevate-innovate-adm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass-chokidar styles/ -o styles/",
+    "watch-css": "npm run build-css && node-sass-chokidar styles/ -o styles/ --watch --recursive"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass-chokidar": "^1.3.4"
+  }
+}
